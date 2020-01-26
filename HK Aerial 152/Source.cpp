@@ -23,7 +23,7 @@ int main()
 	cout << "HK 152 is in the area and has started searching for organic life form.\n\n ";
 
 	do {
-		// 
+		//adds the number of tries.
 		++tries;
 		// Here it puts the high and low number then subtracts it. It then devides the number that it come up with and adds it to the low number.
 		seekingTargetLocation = ((searchGridHighNumber - searchGridLowNumber) / 2) + searchGridLowNumber;
