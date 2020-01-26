@@ -28,7 +28,7 @@ int main()
 			cout << "HK 152 receiving ping # " << tries << endl;
 			cout << "Alert! search radius was to high # " << seekingTargetLocation << endl;
 			searchGridHighNumber = seekingTargetLocation - 1;
-		}
+		} 
 		else if (seekingTargetLocation < exactTargetLocation)
 		{
 			cout << "HK 152 receiving ping # " << tries << endl;
